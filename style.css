@@ -18,9 +18,20 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.intro {
+  display: flex;
+}
+
+.portfolioSection {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -57,7 +68,7 @@ nav a {
 
 /* Images */
 img {
-  width: 100%;
+  width: 180px;
   max-width: 200px;
   height: auto;
 }
@@ -75,4 +86,10 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.text {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px;
 }
